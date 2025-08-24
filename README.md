@@ -44,6 +44,7 @@ This repository is structured as a learning journey, progressing from basic conc
 | Strategy | Description | Complexity | Type |
 |----------|-------------|------------|------|
 | [⏰ Time-Based EA](./01-Basic-Strategies/TimeBasedEA.mq5) | Simple hour-based entry/exit system for learning MQL5 fundamentals | ⭐ | Educational |
+| [📊 MA Crossover](./01-Basic-Strategies/MovingAverageCrossover.mq5) | Classic dual moving average crossover strategy (20/200 SMA) | ⭐⭐ | Trend Following |
 | [📏 ATR Strategy](./01-Basic-Strategies/ATRPositionSizing.mq5) | Volatility-based momentum strategy using ATR for entry signals | ⭐⭐ | Trend Following |
 
 **📁 [→ View All Basic Strategies with Full Documentation](./01-Basic-Strategies/)**
@@ -66,9 +67,10 @@ This repository is structured as a learning journey, progressing from basic conc
 3. Compile and attach to charts as needed
 
 ### Quick Start Guide
-1. **Beginners**: Start with `FirstEA.mq5` to understand basic EA structure
-2. **Intermediate**: Explore `ATRBased.mq5` for risk management concepts
-3. **Advanced**: Check out upcoming AI/ML implementations
+1. **Beginners**: Start with `TimeBasedEA.mq5` to understand basic EA structure
+2. **Trend Following**: Learn with `MovingAverageCrossover.mq5` for indicator-based strategies
+3. **Risk Management**: Explore `ATRPositionSizing.mq5` for volatility-based concepts
+4. **Advanced**: Check out upcoming AI/ML implementations
 
 ---
 
@@ -77,6 +79,7 @@ This repository is structured as a learning journey, progressing from basic conc
 | Strategy | Type | Complexity | Risk Level | Best Timeframe |
 |----------|------|------------|------------|----------------|
 | Time-Based EA | Educational | ⭐ | Low | Any |
+| MA Crossover | Trend Following | ⭐⭐ | Medium | H4-D1 |
 | ATR-Based | Risk Management | ⭐⭐ | Medium | H1-D1 |
 
 ---
