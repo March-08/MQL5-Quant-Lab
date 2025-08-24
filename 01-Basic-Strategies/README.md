@@ -26,23 +26,38 @@ This folder contains fundamental MQL5 Expert Advisors designed for beginners to 
 ---
 
 ### 📏 [ATRPositionSizing.mq5](./ATRPositionSizing.mq5)
-**Advanced position sizing based on Average True Range for risk management**
+**Advanced ATR-based trading strategy with volatility-adaptive entries**
 
-**What it does:**
-- Calculates position size based on market volatility (ATR)
-- Implements professional risk management principles
-- Shows how to integrate technical indicators
+**📊 Complete Strategy Explanation:**
+
+**What is ATR?** Average True Range (ATR) is an indicator that measures market volatility by calculating the average of the last N candles' true ranges.
+
+**How ATR Behaves:**
+- When recent candles are small → ATR value decreases  
+- When candles become bigger → ATR value increases
+- ATR adapts to current market volatility conditions
+
+**Trading Logic:**
+1. **Compare** each candle's size to its corresponding ATR value
+2. **Trigger Condition**: When a candle is X times bigger than the ATR value
+3. **Entry Direction**: Enter in the direction of the large "trigger candle"
+   - Big red candle (bearish) → Enter SHORT
+   - Big green candle (bullish) → Enter LONG
+
+**Example:** After a big bearish candle that's significantly larger than ATR, the trend often continues downward, making it a good short entry signal.
 
 **Key Learning Points:**
-- Technical indicator integration
-- Dynamic position sizing
-- Risk management concepts
-- Volatility-based trading decisions
+- Technical indicator integration (ATR calculation)
+- Volatility-based entry signals
+- Momentum and trend-following concepts
+- Dynamic market adaptation
+- Professional trading strategy structure
 
 **Parameters:**
-- Risk percentage per trade
-- ATR period calculation
-- Stop loss based on ATR multiples
+- ATR period (N candles for calculation)
+- Multiplier threshold (X times ATR)
+- Position sizing based on volatility
+- Risk management integration
 
 ---
 

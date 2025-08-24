@@ -41,35 +41,12 @@ This repository is structured as a learning journey, progressing from basic conc
 
 ### 🔰 **Beginner Strategies**
 
-#### ⏰ [Time-Based Trading EA](./01-Basic-Strategies/TimeBasedEA.mq5)
-```mql5
-// Simple time-based entry and exit strategy
-// Perfect for learning basic MQL5 structure
-```
-**Features:**
-- Opens trades at specified hours
-- Automatic position management
-- Basic input validation
-- Clean code structure for learning
+| Strategy | Description | Complexity | Type |
+|----------|-------------|------------|------|
+| [⏰ Time-Based EA](./01-Basic-Strategies/TimeBasedEA.mq5) | Simple hour-based entry/exit system for learning MQL5 fundamentals | ⭐ | Educational |
+| [📏 ATR Strategy](./01-Basic-Strategies/ATRPositionSizing.mq5) | Volatility-based momentum strategy using ATR for entry signals | ⭐⭐ | Trend Following |
 
-**Use Case:** Educational - Learn MQL5 basics and Expert Advisor structure
-**📁 [View All Basic Strategies →](./01-Basic-Strategies/)**
-
----
-
-#### 📏 [ATR-Based Position Sizing](./01-Basic-Strategies/ATRPositionSizing.mq5)
-```mql5
-// Advanced position sizing using Average True Range
-// Risk management through volatility measurement
-```
-**Features:**
-- Dynamic position sizing based on market volatility
-- ATR calculation for risk assessment
-- Professional risk management approach
-- Scalable to any trading strategy
-
-**Use Case:** Risk management foundation for all trading strategies
-**📁 [View All Basic Strategies →](./01-Basic-Strategies/)**
+**📁 [→ View All Basic Strategies with Full Documentation](./01-Basic-Strategies/)**
 
 ---
 
