@@ -1,41 +1,23 @@
-# Prerequisites
-*.d
+# Compiled files
+*.ex5
+*.ex4
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Logs
+*.log
 
-# Precompiled Headers
-*.gch
-*.pch
+# Cache and config files
+*.dat
+*.tmp
 
-# Linker files
-*.ilk
+# History and tester files
+*.hst
+*.fxt
+tester/*
 
-# Debugger Files
-*.pdb
+# Common OS clutter
+.DS_Store
+Thumbs.db
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+# IDE configs (if using VSCode, CLion, etc.)
+.vscode/
+.idea/
